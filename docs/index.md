@@ -6,7 +6,9 @@ The Bach Violin Dataset is available [here](https://salu133445.github.io/bach-vi
 
 ## Audio samples
 
-Here are some examples of audio files synthesized by our proposed model. Audio samples used in the subjective listening test can be found [here](violin) (violin) and [here](piano) (piano).
+- Some samples synthesized by our proposed model can be found below.
+- Audios for the figures on the paper are available [here](examples).
+- Audio samples for the subjective listening test can be found [here](violin) (violin) and [here](piano) (piano).
 
 | Violin | Piano |
 |:-:|:-:|

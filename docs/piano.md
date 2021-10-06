@@ -1,9 +1,9 @@
 # Piano samples
 
+Here are the piano samples used in the subjective listening test.
+
 ## P1 International Piano-e-Competition 2006
 
-| Model | Audio |
-|---|---|
 | Baseline                                     | {% include audio_player.html filename="piano/hifigan/hifigan_MIDI-Unprocessed_05_R1_2011_MID--AUDIO_R1-D2_09_Track09_wav_003.wav" %} |
 | DeepPerformer (ours)                         | {% include audio_player.html filename="piano/fastspeech-full/fastspeech-full_MIDI-Unprocessed_05_R1_2011_MID--AUDIO_R1-D2_09_Track09_wav_003.wav" %} |
 | &emsp;- w/o note-wise positional encoding    | {% include audio_player.html filename="piano/fastspeech-no-note-pos-enc/fastspeech-no-note-pos-enc_MIDI-Unprocessed_05_R1_2011_MID--AUDIO_R1-D2_09_Track09_wav_003.wav" %} |
@@ -12,8 +12,6 @@
 
 ## P2 International Piano-e-Competition 2008
 
-| Model | Audio |
-|---|---|
 | Baseline                                     | {% include audio_player.html filename="piano/hifigan/hifigan_MIDI-Unprocessed_05_R2_2006_01_ORIG_MID--AUDIO_05_R2_2006_01_Track01_wav_146.wav" %} |
 | DeepPerformer (ours)                         | {% include audio_player.html filename="piano/fastspeech-full/fastspeech-full_MIDI-Unprocessed_05_R2_2006_01_ORIG_MID--AUDIO_05_R2_2006_01_Track01_wav_146.wav" %} |
 | &emsp;- w/o note-wise positional encoding    | {% include audio_player.html filename="piano/fastspeech-no-note-pos-enc/fastspeech-no-note-pos-enc_MIDI-Unprocessed_05_R2_2006_01_ORIG_MID--AUDIO_05_R2_2006_01_Track01_wav_146.wav" %} |
@@ -22,8 +20,6 @@
 
 ## P3 International Piano-e-Competition 2009
 
-| Model | Audio |
-|---|---|
 | Baseline                                     | {% include audio_player.html filename="piano/hifigan/hifigan_MIDI-Unprocessed_06_R2_2008_01-05_ORIG_MID--AUDIO_06_R2_2008_wav--3_025.wav" %} |
 | DeepPerformer (ours)                         | {% include audio_player.html filename="piano/fastspeech-full/fastspeech-full_MIDI-Unprocessed_06_R2_2008_01-05_ORIG_MID--AUDIO_06_R2_2008_wav--3_025.wav" %} |
 | &emsp;- w/o note-wise positional encoding    | {% include audio_player.html filename="piano/fastspeech-no-note-pos-enc/fastspeech-no-note-pos-enc_MIDI-Unprocessed_06_R2_2008_01-05_ORIG_MID--AUDIO_06_R2_2008_wav--3_025.wav" %} |
@@ -32,8 +28,6 @@
 
 ## P4 International Piano-e-Competition 2011
 
-| Model | Audio |
-|---|---|
 | Baseline                                     | {% include audio_player.html filename="piano/hifigan/hifigan_MIDI-Unprocessed_14_R1_2009_06-08_ORIG_MID--AUDIO_14_R1_2009_14_R1_2009_08_WAV_120.wav" %} |
 | DeepPerformer (ours)                         | {% include audio_player.html filename="piano/fastspeech-full/fastspeech-full_MIDI-Unprocessed_14_R1_2009_06-08_ORIG_MID--AUDIO_14_R1_2009_14_R1_2009_08_WAV_120.wav" %} |
 | &emsp;- w/o note-wise positional encoding    | {% include audio_player.html filename="piano/fastspeech-no-note-pos-enc/fastspeech-no-note-pos-enc_MIDI-Unprocessed_14_R1_2009_06-08_ORIG_MID--AUDIO_14_R1_2009_14_R1_2009_08_WAV_120.wav" %} |
@@ -42,8 +36,6 @@
 
 ## P5 International Piano-e-Competition 2013
 
-| Model | Audio |
-|---|---|
 | Baseline                                     | {% include audio_player.html filename="piano/hifigan/hifigan_ORIG-MIDI_01_7_6_13_Group__MID--AUDIO_04_R1_2013_wav--4_035.wav" %} |
 | DeepPerformer (ours)                         | {% include audio_player.html filename="piano/fastspeech-full/fastspeech-full_ORIG-MIDI_01_7_6_13_Group__MID--AUDIO_04_R1_2013_wav--4_035.wav" %} |
 | &emsp;- w/o note-wise positional encoding    | {% include audio_player.html filename="piano/fastspeech-no-note-pos-enc/fastspeech-no-note-pos-enc_ORIG-MIDI_01_7_6_13_Group__MID--AUDIO_04_R1_2013_wav--4_035.wav" %} |
