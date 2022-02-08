@@ -2,7 +2,7 @@ Deep Performer is a novel three-stage system for score-to-audio music performanc
 
 ## Dataset
 
-The Bach Violin Dataset is available [here](https://salu133445.github.io/bach-violin/).
+The Bach Violin Dataset we used to train our proposed system is available [here](https://salu133445.github.io/bach-violin/).
 
 ## Audio samples
 
@@ -17,3 +17,10 @@ The Bach Violin Dataset is available [here](https://salu133445.github.io/bach-vi
 | {% include audio_player.html filename="violin/fastspeech-full/fastspeech-full_emil-telmanyi_bwv1006_mov1_033.wav" %} | {% include audio_player.html filename="piano/fastspeech-full/fastspeech-full_MIDI-Unprocessed_06_R2_2008_01-05_ORIG_MID--AUDIO_06_R2_2008_wav--3_025.wav" %} |
 | {% include audio_player.html filename="violin/fastspeech-full/fastspeech-full_karen-gomyo_bwv1006_mov4_012.wav" %} | {% include audio_player.html filename="piano/fastspeech-full/fastspeech-full_MIDI-Unprocessed_14_R1_2009_06-08_ORIG_MID--AUDIO_14_R1_2009_14_R1_2009_08_WAV_120.wav" %} |
 | {% include audio_player.html filename="violin/fastspeech-full/fastspeech-full_oliver-colbentson_bwv1006_mov7_006.wav" %} | {% include audio_player.html filename="piano/fastspeech-full/fastspeech-full_ORIG-MIDI_01_7_6_13_Group__MID--AUDIO_04_R1_2013_wav--4_035.wav" %} |
+
+## Paper
+
+__Deep Performer: Score-to-Audio Music Performance Synthesis__<br>
+Hao-Wen Dong, Cong Zhou, Taylor Berg-Kirkpatrick and Julian McAuley<br>
+_Proceedings of the IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)_, 2022<br>
+[[homepage](https://github.com/salu133445/deepperformer)]

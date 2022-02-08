@@ -4,8 +4,15 @@ Deep Performer is a novel three-stage system for score-to-audio music performanc
 
 ## Dataset
 
-The Bach Violin Dataset is available [here](https://salu133445.github.io/bach-violin/).
+The Bach Violin Dataset we used to train our proposed system is available [here](https://salu133445.github.io/bach-violin/).
 
 ## Audio samples
 
 Examples of audio files synthesized by our proposed model can be found [here](https://salu133445.github.io/deepperformer). Audio samples used in the subjective listening test can be found [here](https://salu133445.github.io/deepperformer/violin) (violin) and [here](https://salu133445.github.io/deepperformer/piano) (piano).
+
+## Paper
+
+__Deep Performer: Score-to-Audio Music Performance Synthesis__<br>
+Hao-Wen Dong, Cong Zhou, Taylor Berg-Kirkpatrick and Julian McAuley<br>
+_Proceedings of the IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)_, 2022<br>
+[[homepage](https://github.com/salu133445/deepperformer)]
