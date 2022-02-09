@@ -21,6 +21,8 @@ To train our proposed system, we compile a new dataset of 6.5 hours of professio
 ## Paper
 
 __Deep Performer: Score-to-Audio Music Performance Synthesis__<br>
+<small>
 Hao-Wen Dong, Cong Zhou, Taylor Berg-Kirkpatrick, and Julian McAuley<br>
 _Proceedings of the IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)_, 2022<br>
-[[homepage](https://github.com/salu133445/deepperformer)]
+[[homepage](https://github.com/salu133445/deepperformer)] [[reviews](https://github.com/salu133445/deepperformer/pdf/deepperformer-icassp2022-reviews.pdf)]
+</small>
