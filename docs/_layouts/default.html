@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     {% seo %}
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
     <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
     <![endif]-->
@@ -17,15 +18,14 @@
           <h1><a class="nohover" href="{{ site.github.url }}">Deep Performer</a></h1>
         </div>
         <div class="info">
-          <div class="authors">
+          <div class="people">
             <a href="https://salu133445.github.io/">Hao-Wen&nbsp;Dong</a>,
             <a href="mailto:cong.zhou@dolby.com">Cong&nbsp;Zhou</a>,
             <a href="https://cseweb.ucsd.edu/~tberg/">Taylor&nbsp;Berg-Kirkpatrick</a>,
             <a href="https://cseweb.ucsd.edu/~jmcauley/">Julian&nbsp;McAuley</a>
           </div>
           <div class="affiliations">
-            Dolby Laboratories<br>
-            University of California San Diego
+            Dolby Laboratories<br>University of California San Diego
           </div>
         </div>
         <input id="menu-checkbox" class="menu-checkbox" type="checkbox">
@@ -57,27 +57,31 @@
       <footer>
         <hr>
         <p>
-          Hosted on GitHub Pages.
-          Powered by <a href="http://jekyllrb.com">Jekyll</a>.
+          Hosted on GitHub Pages. Powered by <a href="http://jekyllrb.com">Jekyll</a>.
           Theme adapted from <a href="https://github.com/orderedlist/minimal">minimal</a> by <a href="https://github.com/orderedlist">orderedlist.</a></a>
         </p>
       </footer>
     </div>
     <script src="{{ '/assets/js/scale.fix.js' | relative_url }}"></script>
     <script>
-      const btn = document.querySelector(".mode-toggle");
-      const prefersDarkScheme = window.matchMedia("(prefers-color-scheme: dark)");
+      // Get theme from local storage or system preference
+      var theme = localStorage.getItem('theme');
+      if (!theme) {
+        theme = (window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light");
+      }
+      // Set theme
+      if (theme === "dark") {
+        document.documentElement.setAttribute("data-theme", "dark");
+      } else {
+        document.documentElement.setAttribute("data-theme", "light");
+      }
       // Listen for a click on the button
+      const btn = document.querySelector(".mode-toggle");
       btn.addEventListener("click", function() {
-        // If the OS is set to dark mode...
-        if (prefersDarkScheme.matches) {
-          // ...then apply the .light-theme class to override those styles
-          document.body.classList.toggle("light-theme");
-          // Otherwise...
-        } else {
-          // ...apply the .dark-theme class to override the default light styles
-          document.body.classList.toggle("dark-theme");
-        }
+        theme = document.documentElement.getAttribute("data-theme");
+        var targetTheme = (theme === "dark") ? "light" : "dark";
+        document.documentElement.setAttribute("data-theme", targetTheme);
+        localStorage.setItem("theme", targetTheme);
       });
     </script>
   </body>
