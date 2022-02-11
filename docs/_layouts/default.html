@@ -29,8 +29,8 @@
           </div>
         </div>
         <input id="menu-checkbox" class="menu-checkbox" type="checkbox">
-        <label for="menu-checkbox" class="menu-toggle"><i class="fas fa-bars fa-fw"></i></label>
-        <label for="menu-checkbox" class="menu-toggle-close"><i class="fas fa-times fa-fw"></i></label>
+        <label for="menu-checkbox" class="menu-toggle"><i class="fa-solid fa-bars fa-fw"></i></label>
+        <label for="menu-checkbox" class="menu-toggle-close"><i class="fa-solid fa-times fa-fw"></i></label>
         <nav class="menu" role="navigation">
           <div class="subpage-links">
             {% include icon_link_button.html text="Home" icon="fa-solid fa-home fa-fw" href=site.github.url %}
@@ -41,13 +41,14 @@
             {% include icon_link_button.html text="Paper" icon="fa-solid fa-file-lines fa-fw" href="paper" %}
           </div>
           <div class="external-links">
+            {% include icon_link_button.html text="GitHub" icon="fa-brands fa-github fa-fw" href=site.github.repository_url %}
             {% include icon_link_button.html text="BergLab" icon="fa-solid fa-users fa-fw" href="https://icebergnlp.github.io/" %}
             {% include icon_link_button.html text="McAuleyLab" icon="fa-solid fa-users fa-fw" href="https://cseweb.ucsd.edu/~jmcauley/" %}
           </div>
         </nav>
         <button class="mode-toggle">
-          <span class="dark-mode"><i class="fas fa-moon fa-fw"></i><span class="mode-text"> Dark mode</span></span>
-          <span class="light-mode"><i class="fas fa-sun fa-fw"></i><span class="mode-text"> Light mode</span></span>
+          <span class="dark-mode"><i class="fa-solid fa-moon fa-fw"></i><span class="mode-text"> Dark mode</span></span>
+          <span class="light-mode"><i class="fa-solid fa-sun fa-fw"></i><span class="mode-text"> Light mode</span></span>
         </button>
         <hr>
       </header>
