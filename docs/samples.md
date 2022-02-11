@@ -1,6 +1,6 @@
 # Audios for the figures
 
-Here are the audios for the figures on the paper.
+These are the audios for the figures on the paper.
 
 ## Figure 1
 

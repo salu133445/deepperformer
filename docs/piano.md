@@ -1,6 +1,6 @@
 # Piano samples
 
-Here are the piano samples used in the subjective listening test.
+These are the piano samples used in the subjective listening test. We used the [MAESTRO Dataset](https://magenta.tensorflow.org/datasets/maestro) to train our models.
 
 ## (P1) International Piano-e-Competition 2006
 

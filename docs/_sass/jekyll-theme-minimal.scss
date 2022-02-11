@@ -1,7 +1,6 @@
 @import "fonts";
 @import "highlight";
-@import "all.css";
-@import "custom.css";
+@import "fontawesome.css";
 
 // Main wrappers
 body {
@@ -59,7 +58,7 @@ body.dark-theme {
 }
 
 header {
-  width: 270px;
+  width: 260px;
   float: left;
   position: fixed;
 }
@@ -68,6 +67,19 @@ section {
   float: right;
   width: 740px;
   margin-bottom: 50px;
+}
+
+footer {
+  width: 260px;
+  float: left;
+  position: fixed;
+  bottom: 50px;
+  color: var(--weaker-text-color);
+  font-size: 12px;
+}
+
+footer a {
+  color: var(--weaker-text-color);
 }
 
 // Menu
@@ -84,12 +96,18 @@ section {
   color: var(--strong-text-color);
 }
 
-sup { vertical-align: top; font-size: 0.6em; }
-
 .title .chinese-name {
   font-family: 'cwTeXKai';
   margin-top: 10px;
   font-weight: 400;
+}
+
+.info .authors {
+  margin-bottom: 20px;
+}
+
+.info .affiliations {
+  margin-bottom: 20px;
 }
 
 .subpage-links {
@@ -104,7 +122,7 @@ sup { vertical-align: top; font-size: 0.6em; }
   background: var(--weak-bg-color);
 }
 
-header hr {
+header hr, footer hr {
   display: none
 }
 
@@ -219,12 +237,14 @@ h3 {
   font-size: 16px;
 }
 
-small {
-  font-size: 11px;
-}
-
 strong {
   font-weight: 700;
+}
+
+
+sup {
+  vertical-align: top;
+  font-size: 1.2ex;
 }
 
 a {
@@ -334,7 +354,7 @@ hr {
     width: auto;
   }
 
-  header, section {
+  header, section, footer {
     float: none;
     width: auto;
     position: static;
@@ -425,6 +445,10 @@ hr {
   header hr {
     display: block;
     margin-bottom: 0;
+  }
+
+  footer hr {
+    display: block;
   }
 
   #menu-checkbox:checked ~ .menu-toggle-close {
@@ -564,8 +588,8 @@ hr {
   body {
     --text-color: #ddd;
     --bg-color: #222;
-    --weak-text-color: #ccc;
-    --weaker-text-color: #bbb;
+    --weak-text-color: #bbb;
+    --weaker-text-color: #999;
     --strong-text-color: #eee;
     --weak-bg-color: #333;
     --weaker-bg-color: #555;
@@ -585,8 +609,8 @@ hr {
   body.light-theme {
     --text-color: #333;
     --strong-text-color: #222;
-    --weak-text-color: #555;
-    --weaker-text-color: #666;
+    --weak-text-color: #666;
+    --weaker-text-color: #999;
     --bg-color: #fff;
     --weak-bg-color: #eee;
     --weaker-bg-color: #ddd;

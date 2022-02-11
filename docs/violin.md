@@ -1,6 +1,7 @@
 # Violin samples
 
-Here are the violin samples used in the subjective listening test.
+These are the piano samples used in the subjective listening test. We used the [MAESTRO Dataset](https://magenta.tensorflow.org/datasets/maestro) to train our models.
+ are the violin samples used in the subjective listening test. We used the [Bach Violin Dataset](https://salu133445.github.io/bach-violin-dataset/) to train our models.
 
 ## (V1) Bach - Violin Partita no. 1 in B minor, BWV 1002, mov. 2 - Emil Telmányi
 
