@@ -8,4 +8,4 @@ The Bach Violin Dataset is a collection of high-quality public recordings of Bac
 
 {% include audio_player.html filename="assets/audio/emil-telmanyi_bwv1001_trimmed_30sec.mp3" %}
 
-The dataset and the source code for the alignment process can be found [here](https://salu133445.github.io/bach-violin-dataset/).
+_For more information, please visit our project [homepage](https://salu133445.github.io/bach-violin-dataset/)._
