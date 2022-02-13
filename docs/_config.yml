@@ -2,12 +2,12 @@ theme: jekyll-theme-minimal
 title: Deep Performer
 description: Score-to-audio music performance synthesis
 icons:
-  homepage: fas fa-globe-asia
-  video: fab fa-youtube
-  paper: fas fa-file-pdf
-  slides: fas fa-file-pdf
-  poster: fas fa-file-pdf
-  arxiv: fas fa-archive
-  code: fab fa-github
-  documentation: fas fa-book
-  reviews: fas fa-comments
+  homepage: fa-solid fa-globe-asia
+  video: fa-brands fa-youtube
+  paper: fa-solid fa-file-pdf
+  slides: fa-solid fa-file-pdf
+  poster: fa-solid fa-file-pdf
+  arxiv: fa-solid fa-archive
+  code: fa-brands fa-github
+  documentation: fa-solid fa-book
+  reviews: fa-solid fa-comments
