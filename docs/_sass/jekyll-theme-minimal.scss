@@ -4,6 +4,11 @@
 
 // Theme
 :root {
+  --normal-font-size: 16px;
+  --small-font-size: 14px;
+  --smaller-font-size: 12px;
+  --large-font-size: 18px;
+  --larger-font-size: 20px;
   --text-color: #333;
   --strong-text-color: #222;
   --weak-text-color: #555;
@@ -72,7 +77,7 @@ body {
   margin-left: calc(100vw - 100%);
   padding: 50px;
   background-color: var(--bg-color);
-  font: 16px/1.5 "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: var(--normal-font-size)/1.5 "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 400;
   color: var(--text-color);
 }
@@ -100,7 +105,7 @@ footer {
   position: fixed;
   bottom: 50px;
   color: var(--weaker-text-color);
-  font-size: 12px;
+  font-size: var(--smaller-font-size);
 }
 
 // Header & footer
@@ -239,17 +244,17 @@ h1, h2, h3 {
 }
 
 h1 {
-  font-size: 20px;
+  font-size: var(--larger-font-size);
   font-weight: 700;
 }
 
 h2 {
-  font-size: 16px;
+  font-size: var(--normal-font-size);
   font-weight: 700;
 }
 
 h3, h4, h5, h6 {
-  font-size: 16px;
+  font-size: var(--normal-font-size);
   font-weight: 400;
 }
 
@@ -261,16 +266,16 @@ strong {
   font-weight: 700;
 }
 
+.italic {
+  font-style: italic;
+}
+
 small {
-  font-size: smaller;
+  font-size: var(--small-font-size);
 }
 
 .small {
-  font-size: smaller;
-}
-
-.italic {
-  font-style: italic;
+  font-size: var(--small-font-size);
 }
 
 sup {
@@ -298,6 +303,7 @@ a:not(.nohover):hover, a:not(.nohover):focus {
 }
 
 blockquote {
+  font-size: var(--small-font-size);
   border-left: 1px solid var(--weaker-bg-color);
   margin: 0;
   padding: 0 0 0 20px;
@@ -308,7 +314,7 @@ code, pre {
 }
 
 pre {
-  font-size: 14px;
+  font-size: var(--small-font-size);
   border: 1px solid var(--weaker-bg-color);
   border-radius: 5px;
   padding: 8px 15px;
@@ -527,18 +533,6 @@ hr {
     padding: 15px;
   }
 
-  h1 {
-    font-size: 20px;
-  }
-
-  h2 {
-    font-size: 18px;
-  }
-
-  h3 {
-    font-size: 16px;
-  }
-
   .mode-toggle {
     right: 60px;
     top: 20px;
@@ -558,18 +552,6 @@ hr {
 @media print, screen and (max-height: 600px) {
   body {
     padding: 15px;
-  }
-
-  h1 {
-    font-size: 20px;
-  }
-
-  h2 {
-    font-size: 18px;
-  }
-
-  h3 {
-    font-size: 16px;
   }
 
   .info {
