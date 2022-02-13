@@ -17,4 +17,4 @@ Audio samples synthesized by our proposed model can be found in the `samples` di
 __Deep Performer: Score-to-Audio Music Performance Synthesis__<br>
 Hao-Wen Dong, Cong Zhou, Taylor Berg-Kirkpatrick, and Julian McAuley<br>
 _Proceedings of the IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)_, 2022<br>
-[[homepage](https://github.com/salu133445/deepperformer)] [[reviews](https://github.com/salu133445/deepperformer/pdf/deepperformer-icassp2022-reviews.pdf)]
+[[homepage](https://github.com/salu133445/deepperformer)] [[paper](https://salu133445.github.io/deepperformer/pdf/deepperformer-icassp2022-paper.pdf)] [[reviews](https://github.com/salu133445/deepperformer/pdf/deepperformer-icassp2022-reviews.pdf)]
