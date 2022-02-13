@@ -1,4 +1,4 @@
-[__Deep Performer: Score-to-Audio Music Performance Synthesis__](https://salu133445.github.io/deepperformer/pdf/deepperformer-icassp2022-paper.pdf)\\
+[__Deep Performer: Score-to-Audio Music Performance Synthesis__](https://salu133445.github.io/deepperformer/pdf/deepperformer-icassp2022-paper.pdf){:.hidden}\\
 <small>
 Hao-Wen Dong, Cong Zhou, Taylor Berg-Kirkpatrick, and Julian McAuley\\
 _Proceedings of the IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)_, 2022\\
