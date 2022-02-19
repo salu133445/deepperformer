@@ -27,6 +27,8 @@
   --highlight-number-color: #666666;
   --highlight-string-color: #BA2121;
   --highlight-name-builtin-pseudo-color: #267CB9;
+  --scrollbar-color: #ccc;
+  --scrollbar-hover-color: #888;
 }
 
 html[data-theme="light"] {
@@ -48,6 +50,8 @@ html[data-theme="light"] {
   --highlight-number-color: #666666;
   --highlight-string-color: #BA2121;
   --highlight-name-builtin-pseudo-color: #267CB9;
+  --scrollbar-color: #ddd;
+  --scrollbar-hover-color: #888;
 }
 
 html[data-theme="dark"] {
@@ -69,6 +73,8 @@ html[data-theme="dark"] {
   --highlight-number-color: #B5CEA8;
   --highlight-string-color: #CE9178;
   --highlight-name-builtin-pseudo-color: #6abcff;
+  --scrollbar-color: #555;
+  --scrollbar-hover-color: #999;
 }
 
 // Main wrappers
@@ -88,27 +94,22 @@ body {
 }
 
 header {
-  width: 260px;
-  float: left;
   position: fixed;
+  float: left;
+  margin-bottom: 50px;
+  width: 260px;
+  height: calc(100% - 50px);
+  overflow-y: auto;
 }
 
 section {
   float: right;
-  width: 740px;
   margin-bottom: 50px;
+  width: 740px;
+  overflow-y: auto;
 }
 
-footer {
-  width: 260px;
-  float: left;
-  position: fixed;
-  bottom: 50px;
-  color: var(--weaker-text-color);
-  font-size: var(--smaller-font-size);
-}
-
-// Header & footer
+// Header
 .title, .title a {
   color: var(--strong-text-color);
 }
@@ -125,11 +126,16 @@ footer {
   background: var(--weak-bg-color);
 }
 
-header hr, footer hr {
+header hr {
   display: none
 }
 
-footer a {
+.notice {
+  color: var(--weaker-text-color);
+  font-size: var(--smaller-font-size);
+}
+
+.notice a {
   color: var(--weaker-text-color);
 }
 
@@ -142,6 +148,7 @@ footer a {
   right: 0px;
   top: 0px;
   z-index: 998;
+  margin-bottom: 20px;
   height: 25px;
   border-radius: 5px;
   border-width: 0px;
@@ -212,6 +219,31 @@ html[data-theme="dark"] body .dark-mode {
   left: 0;
   width: 100%;
   height: 100%;
+}
+
+// Scrollbar
+::-webkit-scrollbar {
+  width: 20px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--scrollbar-color);
+  border-radius: 20px;
+  border: 6px solid transparent;
+  background-clip: content-box;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: var(--scrollbar-hover-color);
+}
+
+header::-webkit-scrollbar {
+  width: 0;
+  background: transparent;
 }
 
 // Special classes
@@ -390,7 +422,7 @@ hr {
     width: auto;
   }
 
-  header, section, footer {
+  header, section {
     float: none;
     width: auto;
     position: static;
@@ -412,10 +444,6 @@ hr {
   header hr {
     display: block;
     margin-bottom: 0;
-  }
-
-  footer hr {
-    display: block;
   }
 
   // Menu
@@ -549,13 +577,9 @@ hr {
   }
 }
 
-@media print, screen and (max-height: 600px) {
+@media print, screen and (max-height: 640px) {
   body {
     padding: 15px;
-  }
-
-  .info {
-    display: none;
   }
 
   .mode-toggle {
@@ -572,10 +596,6 @@ hr {
   .menu {
     right: 20px;
     top: 60px;
-  }
-
-  .menu .subpage-links {
-    margin: 0;
   }
 }
 
