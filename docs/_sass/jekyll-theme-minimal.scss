@@ -109,6 +109,10 @@ section {
   overflow-y: auto;
 }
 
+footer {
+  display: none;
+}
+
 // Header
 .title, .title a {
   color: var(--strong-text-color);
@@ -402,10 +406,6 @@ hr {
     width: 860px;
   }
 
-  header {
-    width: 260px;
-  }
-
   section {
     width: 560px;
   }
@@ -426,10 +426,7 @@ hr {
     float: none;
     width: auto;
     position: static;
-  }
-
-  section {
-    padding: 20px 0;
+    margin-bottom: 0px;
   }
 
   // Header
@@ -437,13 +434,16 @@ hr {
     padding: 0 80px 0 0;
   }
 
-  .info {
+  .info, header .notice {
     display: none;
+  }
+
+  footer {
+    display: block;
   }
 
   header hr {
     display: block;
-    margin-bottom: 0;
   }
 
   // Menu
@@ -583,7 +583,7 @@ hr {
   }
 
   .mode-toggle {
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     right: 60px;
     top: 20px;
   }
