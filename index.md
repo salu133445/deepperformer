@@ -26,8 +26,8 @@ __Deep Performer: Score-to-Audio Music Performance Synthesis__
 
 - [Best samples](#best-samples)
 - [Datasets](#datasets)
-- [Piano samples](#piano)
 - [Violin samples](#violin)
+- - [Piano samples](#piano)
 - [Audios for the figures on the paper](#figures)
 
 ---
@@ -55,52 +55,6 @@ The Bach Violin Dataset is a collection of high-quality public recordings of Bac
 {% include audio_player.html filename="audio/emil-telmanyi_bwv1001_trimmed_30sec.mp3" %}{:.margin-bottom}
 
 _For more information, please visit the project [website](https://salu133445.github.io/bach-violin-dataset/) for the Bach Violin Dataset._
-
----
-
-## Piano samples {#piano}
-
-> These are the piano samples used in the subjective listening test. We used the [MAESTRO Dataset](https://magenta.tensorflow.org/datasets/maestro) to train our models.
-
-### (P1) International Piano-e-Competition 2006
-
-| Baseline                                     | {% include audio_player.html filename="audio/piano/hifigan/hifigan_MIDI-Unprocessed_05_R1_2011_MID--AUDIO_R1-D2_09_Track09_wav_003.wav" %} |
-| Deep Performer (ours)                        | {% include audio_player.html filename="audio/piano/fastspeech-full/fastspeech-full_MIDI-Unprocessed_05_R1_2011_MID--AUDIO_R1-D2_09_Track09_wav_003.wav" %} |
-| &emsp;- w/o note-wise positional encoding    | {% include audio_player.html filename="audio/piano/fastspeech-no-note-pos-enc/fastspeech-no-note-pos-enc_MIDI-Unprocessed_05_R1_2011_MID--AUDIO_R1-D2_09_Track09_wav_003.wav" %} |
-| &emsp;- w/o performer embedding              | {% include audio_player.html filename="audio/piano/fastspeech-no-performer-emb/fastspeech-no-performer-emb_MIDI-Unprocessed_05_R1_2011_MID--AUDIO_R1-D2_09_Track09_wav_003.wav" %} |
-| &emsp;- w/o encoder (using piano roll input) | {% include audio_player.html filename="audio/piano/fastspeech-pianoroll/fastspeech-pianoroll_MIDI-Unprocessed_05_R1_2011_MID--AUDIO_R1-D2_09_Track09_wav_003.wav" %} |
-
-### (P2) International Piano-e-Competition 2008
-
-| Baseline                                     | {% include audio_player.html filename="audio/piano/hifigan/hifigan_MIDI-Unprocessed_05_R2_2006_01_ORIG_MID--AUDIO_05_R2_2006_01_Track01_wav_146.wav" %} |
-| Deep Performer (ours)                        | {% include audio_player.html filename="audio/piano/fastspeech-full/fastspeech-full_MIDI-Unprocessed_05_R2_2006_01_ORIG_MID--AUDIO_05_R2_2006_01_Track01_wav_146.wav" %} |
-| &emsp;- w/o note-wise positional encoding    | {% include audio_player.html filename="audio/piano/fastspeech-no-note-pos-enc/fastspeech-no-note-pos-enc_MIDI-Unprocessed_05_R2_2006_01_ORIG_MID--AUDIO_05_R2_2006_01_Track01_wav_146.wav" %} |
-| &emsp;- w/o performer embedding              | {% include audio_player.html filename="audio/piano/fastspeech-no-performer-emb/fastspeech-no-performer-emb_MIDI-Unprocessed_05_R2_2006_01_ORIG_MID--AUDIO_05_R2_2006_01_Track01_wav_146.wav" %} |
-| &emsp;- w/o encoder (using piano roll input) | {% include audio_player.html filename="audio/piano/fastspeech-pianoroll/fastspeech-pianoroll_MIDI-Unprocessed_05_R2_2006_01_ORIG_MID--AUDIO_05_R2_2006_01_Track01_wav_146.wav" %} |
-
-### (P3) International Piano-e-Competition 2009
-
-| Baseline                                     | {% include audio_player.html filename="audio/piano/hifigan/hifigan_MIDI-Unprocessed_06_R2_2008_01-05_ORIG_MID--AUDIO_06_R2_2008_wav--3_025.wav" %} |
-| Deep Performer (ours)                        | {% include audio_player.html filename="audio/piano/fastspeech-full/fastspeech-full_MIDI-Unprocessed_06_R2_2008_01-05_ORIG_MID--AUDIO_06_R2_2008_wav--3_025.wav" %} |
-| &emsp;- w/o note-wise positional encoding    | {% include audio_player.html filename="audio/piano/fastspeech-no-note-pos-enc/fastspeech-no-note-pos-enc_MIDI-Unprocessed_06_R2_2008_01-05_ORIG_MID--AUDIO_06_R2_2008_wav--3_025.wav" %} |
-| &emsp;- w/o performer embedding              | {% include audio_player.html filename="audio/piano/fastspeech-no-performer-emb/fastspeech-no-performer-emb_MIDI-Unprocessed_06_R2_2008_01-05_ORIG_MID--AUDIO_06_R2_2008_wav--3_025.wav" %} |
-| &emsp;- w/o encoder (using piano roll input) | {% include audio_player.html filename="audio/piano/fastspeech-pianoroll/fastspeech-pianoroll_MIDI-Unprocessed_06_R2_2008_01-05_ORIG_MID--AUDIO_06_R2_2008_wav--3_025.wav" %} |
-
-### (P4) International Piano-e-Competition 2011
-
-| Baseline                                     | {% include audio_player.html filename="audio/piano/hifigan/hifigan_MIDI-Unprocessed_14_R1_2009_06-08_ORIG_MID--AUDIO_14_R1_2009_14_R1_2009_08_WAV_120.wav" %} |
-| Deep Performer (ours)                        | {% include audio_player.html filename="audio/piano/fastspeech-full/fastspeech-full_MIDI-Unprocessed_14_R1_2009_06-08_ORIG_MID--AUDIO_14_R1_2009_14_R1_2009_08_WAV_120.wav" %} |
-| &emsp;- w/o note-wise positional encoding    | {% include audio_player.html filename="audio/piano/fastspeech-no-note-pos-enc/fastspeech-no-note-pos-enc_MIDI-Unprocessed_14_R1_2009_06-08_ORIG_MID--AUDIO_14_R1_2009_14_R1_2009_08_WAV_120.wav" %} |
-| &emsp;- w/o performer embedding              | {% include audio_player.html filename="audio/piano/fastspeech-no-performer-emb/fastspeech-no-performer-emb_MIDI-Unprocessed_14_R1_2009_06-08_ORIG_MID--AUDIO_14_R1_2009_14_R1_2009_08_WAV_120.wav" %} |
-| &emsp;- w/o encoder (using piano roll input) | {% include audio_player.html filename="audio/piano/fastspeech-pianoroll/fastspeech-pianoroll_MIDI-Unprocessed_14_R1_2009_06-08_ORIG_MID--AUDIO_14_R1_2009_14_R1_2009_08_WAV_120.wav" %} |
-
-### (P5) International Piano-e-Competition 2013
-
-| Baseline                                     | {% include audio_player.html filename="audio/piano/hifigan/hifigan_ORIG-MIDI_01_7_6_13_Group__MID--AUDIO_04_R1_2013_wav--4_035.wav" %} |
-| Deep Performer (ours)                        | {% include audio_player.html filename="audio/piano/fastspeech-full/fastspeech-full_ORIG-MIDI_01_7_6_13_Group__MID--AUDIO_04_R1_2013_wav--4_035.wav" %} |
-| &emsp;- w/o note-wise positional encoding    | {% include audio_player.html filename="audio/piano/fastspeech-no-note-pos-enc/fastspeech-no-note-pos-enc_ORIG-MIDI_01_7_6_13_Group__MID--AUDIO_04_R1_2013_wav--4_035.wav" %} |
-| &emsp;- w/o performer embedding              | {% include audio_player.html filename="audio/piano/fastspeech-no-performer-emb/fastspeech-no-performer-emb_ORIG-MIDI_01_7_6_13_Group__MID--AUDIO_04_R1_2013_wav--4_035.wav" %} |
-| &emsp;- w/o encoder (using piano roll input) | {% include audio_player.html filename="audio/piano/fastspeech-pianoroll/fastspeech-pianoroll_ORIG-MIDI_01_7_6_13_Group__MID--AUDIO_04_R1_2013_wav--4_035.wav" %} |
 
 ---
 
@@ -147,6 +101,52 @@ _For more information, please visit the project [website](https://salu133445.git
 | &emsp;- w/o note-wise positional encoding    | {% include audio_player.html filename="audio/violin/fastspeech-no-note-pos-enc/fastspeech-no-note-pos-enc_oliver-colbentson_bwv1006_mov7_006.wav" %} |
 | &emsp;- w/o performer embedding              | {% include audio_player.html filename="audio/violin/fastspeech-no-performer-emb/fastspeech-no-performer-emb_oliver-colbentson_bwv1006_mov7_006.wav" %} |
 | &emsp;- w/o encoder (using piano roll input) | {% include audio_player.html filename="audio/violin/fastspeech-pianoroll/fastspeech-pianoroll_oliver-colbentson_bwv1006_mov7_006.wav" %} |
+
+---
+
+## Piano samples {#piano}
+
+> These are the piano samples used in the subjective listening test. We used the [MAESTRO Dataset](https://magenta.tensorflow.org/datasets/maestro) to train our models.
+
+### (P1) International Piano-e-Competition 2006
+
+| Baseline                                     | {% include audio_player.html filename="audio/piano/hifigan/hifigan_MIDI-Unprocessed_05_R1_2011_MID--AUDIO_R1-D2_09_Track09_wav_003.wav" %} |
+| Deep Performer (ours)                        | {% include audio_player.html filename="audio/piano/fastspeech-full/fastspeech-full_MIDI-Unprocessed_05_R1_2011_MID--AUDIO_R1-D2_09_Track09_wav_003.wav" %} |
+| &emsp;- w/o note-wise positional encoding    | {% include audio_player.html filename="audio/piano/fastspeech-no-note-pos-enc/fastspeech-no-note-pos-enc_MIDI-Unprocessed_05_R1_2011_MID--AUDIO_R1-D2_09_Track09_wav_003.wav" %} |
+| &emsp;- w/o performer embedding              | {% include audio_player.html filename="audio/piano/fastspeech-no-performer-emb/fastspeech-no-performer-emb_MIDI-Unprocessed_05_R1_2011_MID--AUDIO_R1-D2_09_Track09_wav_003.wav" %} |
+| &emsp;- w/o encoder (using piano roll input) | {% include audio_player.html filename="audio/piano/fastspeech-pianoroll/fastspeech-pianoroll_MIDI-Unprocessed_05_R1_2011_MID--AUDIO_R1-D2_09_Track09_wav_003.wav" %} |
+
+### (P2) International Piano-e-Competition 2008
+
+| Baseline                                     | {% include audio_player.html filename="audio/piano/hifigan/hifigan_MIDI-Unprocessed_05_R2_2006_01_ORIG_MID--AUDIO_05_R2_2006_01_Track01_wav_146.wav" %} |
+| Deep Performer (ours)                        | {% include audio_player.html filename="audio/piano/fastspeech-full/fastspeech-full_MIDI-Unprocessed_05_R2_2006_01_ORIG_MID--AUDIO_05_R2_2006_01_Track01_wav_146.wav" %} |
+| &emsp;- w/o note-wise positional encoding    | {% include audio_player.html filename="audio/piano/fastspeech-no-note-pos-enc/fastspeech-no-note-pos-enc_MIDI-Unprocessed_05_R2_2006_01_ORIG_MID--AUDIO_05_R2_2006_01_Track01_wav_146.wav" %} |
+| &emsp;- w/o performer embedding              | {% include audio_player.html filename="audio/piano/fastspeech-no-performer-emb/fastspeech-no-performer-emb_MIDI-Unprocessed_05_R2_2006_01_ORIG_MID--AUDIO_05_R2_2006_01_Track01_wav_146.wav" %} |
+| &emsp;- w/o encoder (using piano roll input) | {% include audio_player.html filename="audio/piano/fastspeech-pianoroll/fastspeech-pianoroll_MIDI-Unprocessed_05_R2_2006_01_ORIG_MID--AUDIO_05_R2_2006_01_Track01_wav_146.wav" %} |
+
+### (P3) International Piano-e-Competition 2009
+
+| Baseline                                     | {% include audio_player.html filename="audio/piano/hifigan/hifigan_MIDI-Unprocessed_06_R2_2008_01-05_ORIG_MID--AUDIO_06_R2_2008_wav--3_025.wav" %} |
+| Deep Performer (ours)                        | {% include audio_player.html filename="audio/piano/fastspeech-full/fastspeech-full_MIDI-Unprocessed_06_R2_2008_01-05_ORIG_MID--AUDIO_06_R2_2008_wav--3_025.wav" %} |
+| &emsp;- w/o note-wise positional encoding    | {% include audio_player.html filename="audio/piano/fastspeech-no-note-pos-enc/fastspeech-no-note-pos-enc_MIDI-Unprocessed_06_R2_2008_01-05_ORIG_MID--AUDIO_06_R2_2008_wav--3_025.wav" %} |
+| &emsp;- w/o performer embedding              | {% include audio_player.html filename="audio/piano/fastspeech-no-performer-emb/fastspeech-no-performer-emb_MIDI-Unprocessed_06_R2_2008_01-05_ORIG_MID--AUDIO_06_R2_2008_wav--3_025.wav" %} |
+| &emsp;- w/o encoder (using piano roll input) | {% include audio_player.html filename="audio/piano/fastspeech-pianoroll/fastspeech-pianoroll_MIDI-Unprocessed_06_R2_2008_01-05_ORIG_MID--AUDIO_06_R2_2008_wav--3_025.wav" %} |
+
+### (P4) International Piano-e-Competition 2011
+
+| Baseline                                     | {% include audio_player.html filename="audio/piano/hifigan/hifigan_MIDI-Unprocessed_14_R1_2009_06-08_ORIG_MID--AUDIO_14_R1_2009_14_R1_2009_08_WAV_120.wav" %} |
+| Deep Performer (ours)                        | {% include audio_player.html filename="audio/piano/fastspeech-full/fastspeech-full_MIDI-Unprocessed_14_R1_2009_06-08_ORIG_MID--AUDIO_14_R1_2009_14_R1_2009_08_WAV_120.wav" %} |
+| &emsp;- w/o note-wise positional encoding    | {% include audio_player.html filename="audio/piano/fastspeech-no-note-pos-enc/fastspeech-no-note-pos-enc_MIDI-Unprocessed_14_R1_2009_06-08_ORIG_MID--AUDIO_14_R1_2009_14_R1_2009_08_WAV_120.wav" %} |
+| &emsp;- w/o performer embedding              | {% include audio_player.html filename="audio/piano/fastspeech-no-performer-emb/fastspeech-no-performer-emb_MIDI-Unprocessed_14_R1_2009_06-08_ORIG_MID--AUDIO_14_R1_2009_14_R1_2009_08_WAV_120.wav" %} |
+| &emsp;- w/o encoder (using piano roll input) | {% include audio_player.html filename="audio/piano/fastspeech-pianoroll/fastspeech-pianoroll_MIDI-Unprocessed_14_R1_2009_06-08_ORIG_MID--AUDIO_14_R1_2009_14_R1_2009_08_WAV_120.wav" %} |
+
+### (P5) International Piano-e-Competition 2013
+
+| Baseline                                     | {% include audio_player.html filename="audio/piano/hifigan/hifigan_ORIG-MIDI_01_7_6_13_Group__MID--AUDIO_04_R1_2013_wav--4_035.wav" %} |
+| Deep Performer (ours)                        | {% include audio_player.html filename="audio/piano/fastspeech-full/fastspeech-full_ORIG-MIDI_01_7_6_13_Group__MID--AUDIO_04_R1_2013_wav--4_035.wav" %} |
+| &emsp;- w/o note-wise positional encoding    | {% include audio_player.html filename="audio/piano/fastspeech-no-note-pos-enc/fastspeech-no-note-pos-enc_ORIG-MIDI_01_7_6_13_Group__MID--AUDIO_04_R1_2013_wav--4_035.wav" %} |
+| &emsp;- w/o performer embedding              | {% include audio_player.html filename="audio/piano/fastspeech-no-performer-emb/fastspeech-no-performer-emb_ORIG-MIDI_01_7_6_13_Group__MID--AUDIO_04_R1_2013_wav--4_035.wav" %} |
+| &emsp;- w/o encoder (using piano roll input) | {% include audio_player.html filename="audio/piano/fastspeech-pianoroll/fastspeech-pianoroll_ORIG-MIDI_01_7_6_13_Group__MID--AUDIO_04_R1_2013_wav--4_035.wav" %} |
 
 ---
 
