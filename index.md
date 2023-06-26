@@ -29,6 +29,7 @@ __Deep Performer: Score-to-Audio Music Performance Synthesis__
 - [Violin samples](#violin)
 - [Piano samples](#piano)
 - [Audios for the figures on the paper](#figures)
+- [Citation](#citation)
 
 ---
 
@@ -202,7 +203,7 @@ Examples of the mel spectrograms, in log scale, synthesized by (a) the baseline 
 
 ---
 
-## Citation
+## Citation {#citation}
 
 > Hao-Wen Dong, Cong Zhou, Taylor Berg-Kirkpatrick, and Julian McAuley, "Deep Performer: Score-to-Audio Music Performance Synthesis," _Proceedings of the IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)_, 2022.
 
