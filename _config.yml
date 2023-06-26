@@ -1,6 +1,7 @@
-theme: jekyll-theme-minimal
+theme: jekyll-theme-modernist
 title: Deep Performer
-description: Score-to-audio music performance synthesis
+description: ICASSP 2022
+show_downloads: false
 icons:
   homepage: fa-solid fa-globe-asia
   video: fa-brands fa-youtube
@@ -11,3 +12,5 @@ icons:
   code: fa-brands fa-github
   documentation: fa-solid fa-book
   reviews: fa-solid fa-comments
+  demo: fa-solid fa-globe-asia
+  link: fa-solid fa-arrow-up-right-from-square
