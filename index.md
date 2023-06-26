@@ -51,7 +51,7 @@ We used two datasets to train our proposed system: [Bach Violin Dataset](https:/
 
 The Bach Violin Dataset is a collection of high-quality public recordings of Bach’s sonatas and partitas for solo violin (BWV 1001–1006). The dataset consists of 6.5 hours of professional recordings from 17 violinists recorded in various recording setups. It also provides the reference scores and estimated alignments between the recordings and scores. Below is an example of the alignment provided, where white dots and green lines show the estimated note onsets and durations.
 
-![alignment](img/alignment.jpg)
+![alignment](images/alignment.jpg)
 
 {% include audio_player.html filename="audio/emil-telmanyi_bwv1001_trimmed_30sec.mp3" %}
 
@@ -157,7 +157,7 @@ _For more information, please visit the project [website](https://salu133445.git
 
 An overview of the proposed three-stage pipeline for score-to-audio music performance synthesis.
 
-![overview](img/overview.png){: style="max-height: 200px; width: auto;"}
+![overview](images/overview.png){: style="max-height: 200px; width: auto;"}
 
 {% include audio_player.html filename="audio/emil-telmanyi_bwv1005_mov2_022.wav" %}
 
@@ -165,7 +165,7 @@ An overview of the proposed three-stage pipeline for score-to-audio music perfor
 
 An example of the constant-Q spectrogram of the first 20 seconds of a violin recording and the estimated onsets (white dots) and durations (green lines).
 
-![alignment](img/alignment.png){: style="max-height: 200px; width: 600px; max-width: 100%;"}
+![alignment](images/alignment.png){: style="max-height: 200px; width: 600px; max-width: 100%;"}
 
 {% include audio_player.html filename="audio/emil-telmanyi_bwv1001_trimmed.mp3" %}
 
@@ -173,13 +173,13 @@ An example of the constant-Q spectrogram of the first 20 seconds of a violin rec
 
 Examples of the mel spectrograms, in log scale, synthesized by our proposed model for (a) violin and (c) piano. (b) and (d) show the input scores for (a) and (c), respectively.
 
-| (a) | ![synth-poly-violin](img/synth-poly-violin.png){: style="max-height: 100px; width: 600px; max-width: 100%;"} |
-| (b) | ![synth-poly-violin-input](img/synth-poly-violin-input.png){: style="max-height: 50px; width: 600px; max-width: 100%;"} |
+| (a) | ![synth_poly_violin](images/synth_poly_violin.png){: style="max-height: 100px; width: 600px; max-width: 100%;"} |
+| (b) | ![synth_poly_violin_input](images/synth_poly_violin_input.png){: style="max-height: 50px; width: 600px; max-width: 100%;"} |
 
 {% include audio_player.html filename="audio/fastspeech-full_emil-telmanyi_bwv1003_mov2_004.wav" %}
 
-| (c) | ![synth-poly-piano](img/synth-poly-piano.png){: style="max-height: 100px; width: 600px; max-width: 100%;"} |
-| (d) | ![synth-poly-piano-input](img/synth-poly-piano-input.png){: style="max-height: 50px; width: 600px; max-width: 100%;"} |
+| (c) | ![synth_poly_piano](images/synth_poly_piano.png){: style="max-height: 100px; width: 600px; max-width: 100%;"} |
+| (d) | ![synth_poly_piano_input](images/synth_poly_piano_input.png){: style="max-height: 50px; width: 600px; max-width: 100%;"} |
 
 {% include audio_player.html filename="audio/MIDI-Unprocessed_09_R2_2009_01_ORIG_MID--AUDIO_09_R2_2009_09_R2_2009_01_WAV_057.wav" %}
 
@@ -187,17 +187,17 @@ Examples of the mel spectrograms, in log scale, synthesized by our proposed mode
 
 Examples of the mel spectrograms, in log scale, synthesized by (a) the baseline model, (b) our proposed synthesis model, and (d) our proposed synthesis model without the note-wise positional encoding. (c) and (e) show the waveforms for (b) and (d), respectively. (f) shows the input score.
 
-| (a) | ![synth-comparison-baseline](img/synth-comparison-baseline.png){: style="max-height: 100px; width: 600px; max-width: 100%;"} |
+| (a) | ![synth_comparison_baseline](images/synth_comparison_baseline.png){: style="max-height: 100px; width: 600px; max-width: 100%;"} |
 
 {% include audio_player.html filename="audio/hifigan_emil-telmanyi_bwv1002_mov2_009.wav" %}
 
-| (b) | ![synth-comparison](img/synth-comparison-highlighted.png){: style="max-height: 100px; width: 600px; max-width: 100%;"} |
-| (c) | ![synth-comparison-waveform](img/synth-comparison-waveform-highlighted.png){: style="max-height: 50px; width: 600px; max-width: 100%;"} |
+| (b) | ![synth_comparison](images/synth_comparison_highlighted.png){: style="max-height: 100px; width: 600px; max-width: 100%;"} |
+| (c) | ![synth_comparison_waveform](images/synth_comparison_waveform_highlighted.png){: style="max-height: 50px; width: 600px; max-width: 100%;"} |
 
 {% include audio_player.html filename="audio/fastspeech-full_emil-telmanyi_bwv1002_mov2_009.wav" %}
 
-| (d) | ![synth-comparison](img/synth-comparison-no-npe-highlighted.png){: style="max-height: 100px; width: 600px; max-width: 100%;"} |
-| (e) | ![synth-comparison-waveform](img/synth-comparison-no-npe-waveform-highlighted.png){: style="max-height: 50px; width: 600px; max-width: 100%;"} |
+| (d) | ![synth_comparison](images/synth_comparison_no_npe_highlighted.png){: style="max-height: 100px; width: 600px; max-width: 100%;"} |
+| (e) | ![synth_comparison_waveform](images/synth_comparison_no_npe_waveform_highlighted.png){: style="max-height: 50px; width: 600px; max-width: 100%;"} |
 
 {% include audio_player.html filename="audio/fastspeech-no-note-pos-enc_emil-telmanyi_bwv1002_mov2_009.wav" %}
 
