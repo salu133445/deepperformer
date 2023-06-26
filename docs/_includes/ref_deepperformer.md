@@ -5,7 +5,7 @@ _IEEE International Conference on Acoustics, Speech and Signal Processing (__ICA
 {% include icon_link.html text="paper" icon=site.icons.paper href="https://arxiv.org/pdf/2202.06034.pdf" %} &ensp;
 {% include icon_link.html text="demo" icon=site.icons.demo href="https://salu133445.github.io/deepperformer/" %} &ensp;
 {% include icon_link.html text="video" icon=site.icons.video href="https://youtu.be/DeV23I_vOA8" %} &ensp;
-{% include icon_link.html text="slides" icon=site.icons.slides href="https://salu133445.github.io/deepperformer/pdf/deepperformer-icassp2022-slides.pdf" %} &ensp;
-{% include icon_link.html text="poster" icon=site.icons.paper href="https://salu133445.github.io/deepperformer/pdf/deepperformer-icassp2022-poster.pdf" %} &ensp;
-{% include icon_link.html text="reviews" icon=site.icons.reviews href="https://salu133445.github.io/deepperformer/pdf/deepperformer-icassp2022-reviews.pdf" %}
+{% include icon_link.html text="slides" icon=site.icons.slides href="https://salu133445.github.io/deepperformer/pdf/deepperformer_icassp2022_slides.pdf" %} &ensp;
+{% include icon_link.html text="poster" icon=site.icons.paper href="https://salu133445.github.io/deepperformer/pdf/deepperformer_icassp2022_poster.pdf" %} &ensp;
+{% include icon_link.html text="reviews" icon=site.icons.reviews href="https://salu133445.github.io/deepperformer/pdf/deepperformer_icassp2022_reviews.pdf" %}
 </small>
