@@ -52,7 +52,7 @@ The Bach Violin Dataset is a collection of high-quality public recordings of Bac
 
 ![alignment](img/alignment.jpg)
 
-{% include audio_player.html filename="audio/emil-telmanyi_bwv1001_trimmed_30sec.mp3" %}{:.margin-bottom}
+{% include audio_player.html filename="audio/emil-telmanyi_bwv1001_trimmed_30sec.mp3" %}
 
 _For more information, please visit the project [website](https://salu133445.github.io/bach-violin-dataset/) for the Bach Violin Dataset._
 
@@ -158,7 +158,7 @@ An overview of the proposed three-stage pipeline for score-to-audio music perfor
 
 ![overview](img/overview.png){: style="max-height: 200px; width: auto;"}
 
-{% include audio_player.html filename="audio/emil-telmanyi_bwv1005_mov2_022.wav" %}{:.margin-bottom}
+{% include audio_player.html filename="audio/emil-telmanyi_bwv1005_mov2_022.wav" %}
 
 ### Figure 3
 
@@ -166,7 +166,7 @@ An example of the constant-Q spectrogram of the first 20 seconds of a violin rec
 
 ![alignment](img/alignment.png){: style="max-height: 200px; width: 600px; max-width: 100%;"}
 
-{% include audio_player.html filename="audio/emil-telmanyi_bwv1001_trimmed.mp3" %}{:.margin-bottom}
+{% include audio_player.html filename="audio/emil-telmanyi_bwv1001_trimmed.mp3" %}
 
 ### Figure 5
 
@@ -175,12 +175,12 @@ Examples of the mel spectrograms, in log scale, synthesized by our proposed mode
 | (a) | ![synth-poly-violin](img/synth-poly-violin.png){: style="max-height: 100px; width: 600px; max-width: 100%;"} |
 | (b) | ![synth-poly-violin-input](img/synth-poly-violin-input.png){: style="max-height: 50px; width: 600px; max-width: 100%;"} |
 
-{% include audio_player.html filename="audio/fastspeech-full_emil-telmanyi_bwv1003_mov2_004.wav" %}{:.margin-bottom}
+{% include audio_player.html filename="audio/fastspeech-full_emil-telmanyi_bwv1003_mov2_004.wav" %}
 
 | (c) | ![synth-poly-piano](img/synth-poly-piano.png){: style="max-height: 100px; width: 600px; max-width: 100%;"} |
 | (d) | ![synth-poly-piano-input](img/synth-poly-piano-input.png){: style="max-height: 50px; width: 600px; max-width: 100%;"} |
 
-{% include audio_player.html filename="audio/MIDI-Unprocessed_09_R2_2009_01_ORIG_MID--AUDIO_09_R2_2009_09_R2_2009_01_WAV_057.wav" %}{:.margin-bottom}
+{% include audio_player.html filename="audio/MIDI-Unprocessed_09_R2_2009_01_ORIG_MID--AUDIO_09_R2_2009_09_R2_2009_01_WAV_057.wav" %}
 
 ### Figure 6
 
@@ -188,17 +188,17 @@ Examples of the mel spectrograms, in log scale, synthesized by (a) the baseline 
 
 | (a) | ![synth-comparison-baseline](img/synth-comparison-baseline.png){: style="max-height: 100px; width: 600px; max-width: 100%;"} |
 
-{% include audio_player.html filename="audio/hifigan_emil-telmanyi_bwv1002_mov2_009.wav" %}{:.margin-bottom}
+{% include audio_player.html filename="audio/hifigan_emil-telmanyi_bwv1002_mov2_009.wav" %}
 
 | (b) | ![synth-comparison](img/synth-comparison-highlighted.png){: style="max-height: 100px; width: 600px; max-width: 100%;"} |
 | (c) | ![synth-comparison-waveform](img/synth-comparison-waveform-highlighted.png){: style="max-height: 50px; width: 600px; max-width: 100%;"} |
 
-{% include audio_player.html filename="audio/fastspeech-full_emil-telmanyi_bwv1002_mov2_009.wav" %}{:.margin-bottom}
+{% include audio_player.html filename="audio/fastspeech-full_emil-telmanyi_bwv1002_mov2_009.wav" %}
 
 | (d) | ![synth-comparison](img/synth-comparison-no-npe-highlighted.png){: style="max-height: 100px; width: 600px; max-width: 100%;"} |
 | (e) | ![synth-comparison-waveform](img/synth-comparison-no-npe-waveform-highlighted.png){: style="max-height: 50px; width: 600px; max-width: 100%;"} |
 
-{% include audio_player.html filename="audio/fastspeech-no-note-pos-enc_emil-telmanyi_bwv1002_mov2_009.wav" %}{:.margin-bottom}
+{% include audio_player.html filename="audio/fastspeech-no-note-pos-enc_emil-telmanyi_bwv1002_mov2_009.wav" %}
 
 ---
 
