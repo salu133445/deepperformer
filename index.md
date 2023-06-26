@@ -27,7 +27,7 @@ __Deep Performer: Score-to-Audio Music Performance Synthesis__
 - [Best samples](#best-samples)
 - [Datasets](#datasets)
 - [Violin samples](#violin)
-- - [Piano samples](#piano)
+- [Piano samples](#piano)
 - [Audios for the figures on the paper](#figures)
 
 ---
